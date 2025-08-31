@@ -143,10 +143,6 @@ li {
     font-weight: bold;
 }
 
-.footer {
-    padding: 20px;
-}
-
 .quote {
     padding: 100px;
     flex: 1;
@@ -190,4 +186,11 @@ li {
     margin-left: auto;
     align-self: center;
     border: 2px solid #E5E7EB;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
