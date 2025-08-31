@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 .header {
@@ -17,6 +18,18 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
 }
 
 .hero {
@@ -66,35 +79,115 @@ body {
     align-self: stretch;
 }
 
+.info {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: normal;
+    width: 135px;
+}
+
+.card-image {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    height: 125px;
+    width: 125px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 800px;
+
+}
+
+.quote-author {
+    text-align: right;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .footer {
     padding: 20px;
 }
 
-.body {
+.quote {
+    padding: 100px;
     flex: 1;
 }
 
-.info {
-    padding: 50px;
-
-}
-
-.quote {
-    padding: 100px;
-}
-
 .call-to-action {
-    padding: 75px;
-}
-
-ul {
+    flex: 1;
     display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 15px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
 }
 
-li {
-    list-style: none;
-    padding: 5px;
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 75px;
+    border-radius: 5px;
+    width: 850px;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+
+
+.call-to-action-info {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.call-to-action .sign-up-button {
+    margin-left: auto;
+    align-self: center;
+    border: 2px solid #E5E7EB;
 }
